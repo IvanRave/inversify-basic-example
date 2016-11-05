@@ -1,15 +1,15 @@
 import { Kernel } from "inversify";
 import "reflect-metadata";
-import SERVICE_IDENTIFIER from "../constants/identifiers";
-import TAG from "../constants/tags";
-import Weapon from "../interfaces/weapon";
-import Warrior from "../interfaces/weapon";
-import Ninja from "../entities/warriors/ninja";
-import Battle from "../interfaces/battle";
-import Samurai from "../entities/warriors/samurai";
-import Shuriken from "../entities/weapons/shuriken";
-import Katana from "../entities/weapons/katana";
-import EpicBattle from "../entities/battle/epic_battle";
+import SERVICE_IDENTIFIER from "./entities/constants/identifiers";
+import TAG from "./entities/constants/tags";
+import Weapon from "./entities/weapon";
+import Warrior from "./entities/warrior";
+import Ninja from "./entities/warrior-ninja";
+import Battle from "./entities/battle";
+import Samurai from "./entities/warrior-samurai";
+import Shuriken from "./entities/weapon-shuriken";
+import Katana from "./entities/weapon-katana";
+import EpicBattle from "./entities/battle-epic";
 
 let kernel = new Kernel();
 

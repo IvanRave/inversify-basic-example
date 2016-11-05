@@ -1,6 +1,6 @@
-import kernel from "./config/ioc_config";
-import SERVICE_IDENTIFIER from "./constants/identifiers";
-import Battle from "./interfaces/battle";
+import kernel from "./ioc_config";
+import SERVICE_IDENTIFIER from "./entities/constants/identifiers";
+import Battle from "./entities/battle";
 
 // Composition root
 let epicBattle = kernel.get<Battle>(SERVICE_IDENTIFIER.BATTLE);

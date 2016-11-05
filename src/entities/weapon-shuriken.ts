@@ -1,4 +1,4 @@
-import Weapon from "../../interfaces/weapon";
+import Weapon from "./weapon";
 import { injectable } from "inversify";
 
 @injectable()

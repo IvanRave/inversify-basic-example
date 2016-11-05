@@ -1,7 +1,7 @@
 import { inject, injectable } from "inversify";
-import Warrior from "../../interfaces/warrior";
-import Weapon from "../../interfaces/weapon";
-import SERVICE_IDENTIFIER from "../../constants/identifiers";
+import Warrior from "./warrior";
+import Weapon from "./weapon";
+import SERVICE_IDENTIFIER from "./constants/identifiers";
 
 @injectable()
 class Samurai implements Warrior {
